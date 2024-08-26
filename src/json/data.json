@@ -1,0 +1,268 @@
+{
+  "productData": [
+    [
+      {
+        "id": 0,
+        "head": "Design",
+        "article": [
+          "Born to perform.",
+          " Design intuitively and keep your brand identity in sync across your workspace."
+        ],
+        "description": "Share text styles, custom fonts, colors and brand assets.",
+        "img": "/imgs/box-1.png"
+      },
+      {
+        "id": 1,
+        "head": "Content",
+        "article": [
+          "Team focus.",
+          " Kick-off ideas fast with reusable block injection and the smart asset library."
+        ],
+        "description": "The smart asset library makes everything you create or add reusable, even text and slides.",
+        "img": "/imgs/box-2.png"
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "head": "Experience",
+        "article": [
+          "Stop clicking and start scrolling.",
+          " Made for any screen and any content with zero detours."
+        ],
+        "description": "Present hands-off, remote or in person. No broken fonts, video placeholders and missing assets.",
+        "img": "/imgs/box-3.png"
+      },
+      {
+        "id": 1,
+        "head": "Management",
+        "article": [
+          "Ultimate control.",
+          " Manage your team, control access and analyse your decks in real-time."
+        ],
+        "description": "Quickly gain insights and stay up to date with decks that are shared outside of your company.",
+        "img": "/imgs/box-4.png"
+      }
+    ],
+    [
+      {
+        "id": 0,
+        "head": "Identities",
+        "description": "Keep your identity consistent and your resources in sync."
+      },
+      {
+        "id": 1,
+        "head": "Blocks",
+        "description": "Create and save custom slide layouts with easy drag & drop blocks."
+      },
+      {
+        "id": 2,
+        "head": "Layouts",
+        "description": "Design flexible layouts for any device and every screen."
+      },
+      {
+        "id": 3,
+        "head": "Controls",
+        "description": "Simply admin your team, workspace and integrations."
+      },
+      {
+        "id": 4,
+        "head": "Assets",
+        "description": "Use the smart asset library to manage your content with ease."
+      },
+      {
+        "id": 5,
+        "head": "Collaboration",
+        "description": "Edit with your team in real-time or invite view only guests."
+      },
+      {
+        "id": 6,
+        "head": "Merge",
+        "description": "Import your slides dynamically from other decks for rapid creation."
+      },
+      {
+        "id": 7,
+        "head": "Insights",
+        "description": "Get real-time analytics about your presentation decks."
+      }
+    ]
+  ],
+  "mainBlogs": [
+    {
+      "blogLink": "dekks-on-betalists-startups-of-2020",
+      "id": 0,
+      "userName": "Adam Rodgers",
+      "userImg": "/imgs/adam@dekks.jpg",
+      "blogImg": "/imgs/blog-1.jpg",
+      "blogType": "Press . 🔖",
+      "blogReadTime": 2,
+      "blogDate": "Feb 9",
+      "blogDescription": "Dekks on BetaList's Startups of 2020 👀",
+      "blogIntro": "Internet’s OG for discovering upcoming startups has selected Dekks as one of the top ten startups to watch out for this year.",
+      "blogImgs": [
+        "/imgs/betalist_preview_startups-of-2020.jpg",
+        "BetaList’s Startups of 2020."
+      ],
+      "blogData": [
+        "Previous startups to be featured include IFTTT, InVision, Airtable and many more. All before they became the juggernauts of today.",
+        "BetaList is well known for being the go-to place to find out about new and upcoming internet startups. At the beginning of the year, BetaList likes to look forward and shares their list of the startups they have high hopes for in the coming year. We’re super excited that Dekks is firmly on their radar.",
+        "For those of you out there working on your own ideas and startups, BetaList is an amazing place to launch your work to the world. Bringing a great idea to life is one thing, but telling people about what you are doing and finding your audience is a major part of the challenge too.",
+        "In the spirit of awards season, we’d like to thank our friends, family, and of course all of our early adopters for pushing us forward with your ongoing support 🙏🏻"
+      ],
+      "blogItem": "See all of the startups on this year’s list →",
+      "blogItemLink": "BetaList’s Startups of 2020"
+    },
+    {
+      "blogLink": "a-chat-with-its-nice-that",
+      "id": 1,
+      "userName": "Ben McKinnon",
+      "userImg": "/imgs/ben@dekks.jpg",
+      "blogImg": "/imgs/blog-2.jpg",
+      "blogType": "Interview . 🖥️",
+      "blogReadTime": 6,
+      "blogDate": "Jan 29",
+      "blogDescription": "A Chat with It's Nice That",
+      "blogIntro": "Full transcript from a chat between International Magic, the studio behind Dekks and Jyni Ong from It’s Nice That.",
+      "blogImgs": [
+        "/imgs/marshall-mc-luhan_the-medium-is-the-message.jpg",
+        "Marshall McLuhan, The Medium is the Message."
+      ],
+      "blogData": [
+        "INT: Please can you tell us how the technologies and strategies you use, inform your creative platform, content and experience productions?",
+        "Technology is as an ever changing, transient phenomenon that simultaneously informs what we do and how we do it. It’s difficult to step back from technology because it has become such an intrinsic part of our everyday lives.",
+        "Technology is blurring our experience and understanding of the physical and digital worlds around us. That said, due to the rapid evolution of game changing enablers such as smaller but longer lasting batteries and unlimited cloud storage — we’ve seen the leaps in technological progress become more frequent, albeit less monumental.",
+        "Is the medium still the message? Certainly our collective behaviour is largely controlled by the mediums we engage with on a daily basis."
+      ],
+      "blogItem": "Read the feature on →",
+      "blogItemLink": " It’s Nice That"
+    },
+    {
+      "blogLink": "on-air-to-talk-real",
+      "id": 2,
+      "userName": "Stefan Endress",
+      "userImg": "/imgs/stefan@dekks.jpg",
+      "blogImg": "/imgs/blog-3.jpg",
+      "blogType": "Podcast . 🎙",
+      "blogDate": "Jun 7",
+      "blogReadTime": 28,
+      "blogDescription": "On Air to Talk Real 🎙",
+      "blogIntro": "Stefan Endress Co-Founder of Dekks talks real on the Indie Hackers Podcast about what’s worked and what hasn’t.",
+      "blogImgs": [
+        "/imgs/135-quick-chat-with-stefan-endress.jpg",
+        "Courland and Stefan."
+      ],
+      "blogData": [
+        "",
+        "",
+        "Big hugs to Courtland for having me on his show to talk raw about the idea, team and motivation behind Dekks and International Magic.",
+        "Show some ❤️ and subscribe to the Indie Hackers Podcast.",
+        "Truly yours,",
+        "Abdullah"
+      ]
+    },
+    {
+      "blogLink": "face-to-face-r-and-d-at-us-by-night",
+      "id": 3,
+      "userName": "Stefan Endress",
+      "userImg": "/imgs/stefan@dekks.jpg",
+      "blogImg": "/imgs/blog-4.jpg",
+      "blogType": "Journal . 📰",
+      "blogReadTime": 7,
+      "blogDate": "Mar 26",
+      "blogDescription": "Face-to-Face R&D at US BY NIGHT",
+      "blogIntro": "I hate design festivals, they’re awesome. International Magic talks on stage at the US BY NIGHT festival in Antwerp. Three days of high energy, powerful one-to-one R&D and PR mode for Dekks.",
+      "blogImgs": [
+        "/imgs/dekks-blog_ubn-intmagic_adam-stefan.jpg",
+        "Adam and Stefan talking about International Magic."
+      ],
+      "blogData": [
+        "Context, UBN 2016",
+        "In 2016 I travelled to Antwerp for the very first time to visit the UBN festival (f.k.a. OFFF By Night) with the Studio 3 alumni crew, to support my friends Tom and Carl (More and More) and Marc Kremers (Future Corp) for their talks.",
+        "To be honest, design festivals were always a bit of a turn-off for me. I’m not really sure why but they always felt quite mono and boring. Maybe it was me, but talking with other designers about design just wasn’t inspiring. So going to UBN in 2016 for the very first time, I wasn’t expecting much.",
+        "UBN 2016 turned out to be amazing. It really changed my view on design festivals. The venue and its high-calibre speakers were extremely inspiring, but also the city of Antwerp was a total win … such an underdog city that wasn’t on my radar at all.",
+        "Thanks for reading,",
+        "Abdullah 👋"
+      ]
+    },
+    {
+      "blogLink": "london-kick-off-startup-genesis",
+      "id": 4,
+      "userName": "Ben McKinnon",
+      "userImg": "/imgs/ben@dekks.jpg",
+      "blogImg": "/imgs/blog-5.jpg",
+      "blogType": "Journal . 📰",
+      "blogReadTime": 5,
+      "blogDate": "Dec 7",
+      "blogDescription": "London Kick-Off. Start-up Genesis. 👊🏻👊🏼👊🏽👊🏾👊🏿",
+      "blogIntro": "Read how we made starting a start-up glamorously mundane, harnessed the power of the post-it and had fun mapping out the framework for our new mission.",
+      "blogData": [
+        "The Hero’s Journey.",
+        "Christopher Booker’s book, ’The Seven Basic Plots’ gives us 7 handy boxes in which we can place pretty much all of the stories we will ever come across. The most loved start-up stories usually fall into the ‘Rags to Riches’ narrative and they often go something like this:",
+        "→ Billionaire A’ used their last $50 at an internet cafe, where they taught themselves to code and start a business in 3 hours.",
+        "These are heartwarming stories that are meant to be motivating, but often they are not relatable and can even put us off taking the first few scary steps towards exploring, validating or even talking about ideas.",
+        "Love and Hugs,",
+        "Abdullah 😁"
+      ],
+      "blogImgs": [
+        "/imgs/dekks-blog_screenshot-notion.png",
+        "Screenshot from our first notion setup."
+      ]
+    },
+    {
+      "blogLink": "introducing-dekks",
+      "id": 5,
+      "userName": "Stefan Endress",
+      "userImg": "/imgs/stefan@dekks.jpg",
+      "blogImg": "/imgs/blog-6.jpg",
+      "blogType": "Journal . 📰",
+      "blogReadTime": 8,
+      "blogDate": "Oct 29",
+      "blogDescription": "Introducing Dekks",
+      "blogIntro": "The new presentation engine for creative teams and individuals, bootstrapped by the crew behind the experience design studio International Magic. Why are we building an app to create presentations? Aren’t there enough solutions already? None of them worked for our studio and that’s why we’re taking matters into our own hands.",
+      "blogImgs": ["/imgs/dekks-blog_logo-animation.gif"],
+      "blogData": [
+        "Introducing Dekks 1.0",
+        "Dekks is a software as a service, design-focused, presentation app that simplifies the process of making great presentations, pitch decks, mood-boards amongst many other types of presentations.",
+        "In the same way Instagram made it easy to share images, and Twitter revolutionised how we share our thoughts, Dekks aims to streamline the process of combining a variety of different media types into informative presentations or persuasive narratives.",
+        "Dekks’ core features are informed by our experiences designing innovative web platforms, as well as our understanding of how people interact and consume content today. Many people, especially those operating in corporate environments, still require a more conventional type of presentation tool. However, those working in the creative industries and the ever-growing gig and freelance economy, face a different set of problems and require a toolkit tailored to their needs.",
+        "Love and hugs,",
+        "Abdullah 😁"
+      ]
+    }
+  ],
+  "allPlans": [
+    {
+      "id": 0,
+      "planName": "Solo",
+      "planFeatures": [
+        "Unlimited Decks",
+        "Unlimited Storage",
+        "Unlimited Collaborators",
+        "Community Support"
+      ],
+      "planAction": "Notify Me"
+    },
+    {
+      "id": 1,
+      "planName": "Team",
+      "planFeatures": [
+        "All Solo Features",
+        "Realtime Collaboration",
+        "Pro Admin Controls",
+        "Email Support"
+      ],
+      "planAction": "Notify Me"
+    },
+    {
+      "id": 2,
+      "planName": "Enterprise",
+      "planFeatures": [
+        "All Team Features",
+        "Custom Domain",
+        "SSO Support",
+        "Dedicated Support"
+      ],
+      "planAction": "Get In Touch"
+    }
+  ]
+}
