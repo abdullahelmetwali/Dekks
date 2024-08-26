@@ -13,9 +13,6 @@ const SeenBlog = () => {
     const addToSession = (blog) => {
         return sessionStorage.setItem('seen', JSON.stringify(blog))
     }
-    window.scrollTo({
-        top: 0,
-    });
     const tweetContent = `${SeenBlog.blogDescription} 
     ${location} via 
     @AbdullahAmrz`
