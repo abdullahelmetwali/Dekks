@@ -29,7 +29,7 @@ const Blog = () => {
                             }}>
                                 <div className="relative z-10 flex flex-col justify-between h-full">
                                     <div className="flex relative w-full gap-3">
-                                        <div><img src={blog.userImg} alt={blog.userName} title={blog.userName} className="rounded-full w-10" /></div>
+                                        <div><img loading="lazy" src={blog.userImg} alt={blog.userName} title={blog.userName} className="rounded-full w-10" /></div>
                                         <div className="absolute top-1 blogData transition-all duration-300 opacity-0 left-14 ">
                                             <h2 className="font-semibold text-sm">{blog.userName}</h2>
                                             <p className="text-[#a3a3a3] text-xs"><time dateTime="2020">5</time> years ago</p>

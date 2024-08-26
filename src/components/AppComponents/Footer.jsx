@@ -14,7 +14,7 @@ const Footer = React.memo(() => {
     <footer className="px-[15%] py-8 mt-32 tab:px-4">
       <section className="flex gap-16 mob:flex-col tab:gap-8">
         <div>
-          <img src={Dekks} alt="Dekks Logo" title="Dekks" className="ml-1" />
+          <img loading="lazy" src={Dekks} alt="Dekks Logo" title="Dekks" className="ml-1" />
           <form
             action="#"
             className="flex my-4"
@@ -50,7 +50,7 @@ const Footer = React.memo(() => {
                         </NavLink>
                         :
                         item === 'Press' ?
-                          <a href="/data/Abdullah ElMetwali.zip" download={true} title="Download Abdullah ElMetwali CV" className="flex gap-1">Press <span><img src="/icons/download.svg" alt="download" /></span></a>
+                          <a href="/data/Abdullah ElMetwali.zip" download={true} title="Download Abdullah ElMetwali CV" className="flex gap-1">Press <span><img loading="lazy" src="/icons/download.svg" alt="download" /></span></a>
                           :
                           item === 'Jobs' ?
                             <span>
@@ -78,14 +78,14 @@ const Footer = React.memo(() => {
       <div className="text-center mt-20">
         <div className="flex justify-center my-8 gap-4">
           <a href="https://www.instagram.com/abdullahelmetwali/" title="Instagram">
-            <img
+            <img loading="lazy"
               src={Insta}
               alt="instagram"
               className="opacity-50 hover:opacity-100"
             />
           </a>
           <a href="https://x.com/AbdullahAmrz" title="Twitter">
-            <img
+            <img loading="lazy"
               src={X}
               alt="twitter"
               className="opacity-50 hover:opacity-100"

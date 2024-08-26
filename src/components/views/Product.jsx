@@ -63,7 +63,7 @@ const Product = () => {
             <main className="px-[15%] tab:px-4">
                 <ul className="flex items-center justify-between">
                     <li>
-                        <a href="https://nmbrs.net/" target="_blank"><img src="/imgs/logo2.avif" alt="numbers logo" title="Numbers" className="w-14 opacity-10 hover:opacity-50" /></a>
+                        <a href="https://nmbrs.net/" target="_blank"><img loading="lazy" src="/imgs/logo2.avif" alt="numbers logo" title="Numbers" className="w-14 opacity-10 hover:opacity-50" /></a>
                     </li>
                     <li className="company text-xl mob:text-base">
                         <a href="https://maworldgroup.com/" target="_blank" >
@@ -102,7 +102,7 @@ const Product = () => {
                                     <p className="text-sm text-[#8e8e98] w-[11rem]">{sec.description}</p>
                                 </div>
                                 <div>
-                                    <img src={sec.img} alt={sec.head} title={sec.head} className="w-full" />
+                                    <img loading="lazy" src={sec.img} alt={sec.head} title={sec.head} className="w-full" />
                                 </div>
                             </div>
                         ))
@@ -127,7 +127,7 @@ const Product = () => {
                                     <p className="text-sm text-[#8e8e98] w-[11rem]">{sec.description}</p>
                                 </div>
                                 <div>
-                                    <img src={sec.img} alt={sec.head} title={sec.head} className="w-full" />
+                                    <img loading="lazy" src={sec.img} alt={sec.head} title={sec.head} className="w-full" />
                                 </div>
                             </div>
                         ))
@@ -144,7 +144,7 @@ const Product = () => {
                     {
                         thirdSecData.map(div => (
                             <div key={div.id} className="p-4 rounded-xl bg-[#1c1c1e] grid gap-1 items-center">
-                                <div><img src={`/imgs/item${div.id + 1}.png`} alt={div.head} title={div.head} className="w-14" /></div>
+                                <div><img loading="lazy" src={`/imgs/item${div.id + 1}.png`} alt={div.head} title={div.head} className="w-14" /></div>
                                 <p className="text-[#8e8e98] my-2">
                                     <span className="text-white">{div.head}.</span> {div.description}
                                 </p>
@@ -162,7 +162,7 @@ const Product = () => {
                                 <NavLink to={`/blog/${blog.blogLink}`} onClick={() => addToSession(blog)}>
                                     <div className="relative z-10 flex flex-col justify-between h-full">
                                         <div className="flex relative w-full gap-3">
-                                            <div><img src={blog.userImg} alt={blog.userName} title={blog.userName} className="rounded-full w-10" /></div>
+                                            <div><img loading="lazy" src={blog.userImg} alt={blog.userName} title={blog.userName} className="rounded-full w-10" /></div>
                                             <div className="absolute top-1 blogData transition-all duration-300 opacity-0 left-14 ">
                                                 <h2 className="font-semibold text-sm">{blog.userName}</h2>
                                                 <p className="text-[#a3a3a3] text-xs"><time dateTime="2020">5</time> years ago</p>

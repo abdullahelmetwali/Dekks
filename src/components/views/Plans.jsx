@@ -56,7 +56,7 @@ function Plans() {
       <main className="px-[15%] my-12 tab:px-4">
         <ul className="flex items-center justify-between">
           <li>
-            <a href="https://nmbrs.net/" target="_blank"><img src="/imgs/logo2.avif" alt="numbers logo" title="Numbers" className="w-14 opacity-10 hover:opacity-50" /></a>
+            <a href="https://nmbrs.net/" target="_blank"><img loading="lazy" src="/imgs/logo2.avif" alt="numbers logo" title="Numbers" className="w-14 opacity-10 hover:opacity-50" /></a>
           </li>
           <li className="company text-xl mob:text-base">
             <a href="https://maworldgroup.com/" target="_blank" >

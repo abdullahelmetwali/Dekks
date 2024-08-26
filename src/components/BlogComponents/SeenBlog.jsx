@@ -32,7 +32,7 @@ const SeenBlog = () => {
         <>
             <main className="px-[15%] my-24 tab:px-4">
                 <div className="flex gap-4">
-                    <div><img src={SeenBlog.userImg} alt={SeenBlog.userName} className="rounded-full w-12" /></div>
+                    <div><img loading="lazy" src={SeenBlog.userImg} alt={SeenBlog.userName} className="rounded-full w-12" /></div>
                     <div>
                         <h1 className="text-xl">{SeenBlog.userName}</h1>
                         <p className="text-[#a3a3a3]">
@@ -51,7 +51,7 @@ const SeenBlog = () => {
                         </article>
                     </div>
                     <div className="my-20">
-                        <div className="flex justify-center"><img src={SeenBlog.blogImgs[0]} alt={SeenBlog.blogIntro[0]} title={SeenBlog.blogImgs[1]} className="rounded-lg" /></div>
+                        <div className="flex justify-center"><img loading="lazy" src={SeenBlog.blogImgs[0]} alt={SeenBlog.blogIntro[0]} title={SeenBlog.blogImgs[1]} className="rounded-lg" /></div>
                         <p className="text-sm text-[#a3a3a3] text-center my-2">{SeenBlog.blogImgs[1]}</p>
                     </div>
                     <div className="my-20 text-xl px-[15%] mob:px-0">
@@ -77,7 +77,7 @@ const SeenBlog = () => {
             </main>
             <div className="flex justify-center gap-3">
                 <button className="shareBtn" onClick={() => shareOnTwitter()}>
-                    <img src="/icons/x.svg" alt="X-icon" />
+                    <img loading="lazy" src="/icons/x.svg" alt="X-icon" />
                     Tweet
                 </button>
                 <button className="shareBtn" onClick={() => {
@@ -87,7 +87,7 @@ const SeenBlog = () => {
                         setTextCopied(false)
                     }, 3000)
                 }}>
-                    <img src="/icons/copy.svg" alt="copy-icon" />
+                    <img loading="lazy" src="/icons/copy.svg" alt="copy-icon" />
                     Share
                 </button>
             </div>
@@ -99,7 +99,7 @@ const SeenBlog = () => {
                                 <NavLink to={`/blog/${blog.blogLink}`} onClick={() => addToSession(blog)}>
                                     <div className="relative z-10 flex flex-col justify-between h-full">
                                         <div className="flex relative w-full gap-3">
-                                            <div><img src={blog.userImg} alt={blog.userName} title={blog.userName} className="rounded-full w-10" /></div>
+                                            <div><img loading="lazy" src={blog.userImg} alt={blog.userName} title={blog.userName} className="rounded-full w-10" /></div>
                                             <div className="absolute top-1 blogData transition-all duration-300 opacity-0 left-14 ">
                                                 <h2 className="font-semibold text-sm">{blog.userName}</h2>
                                                 <p className="text-[#a3a3a3] text-xs"><time dateTime="2020">5</time> years ago</p>
@@ -132,7 +132,7 @@ const SeenBlog = () => {
                         }`}
                 >
                     <div>
-                        <img src="/icons/copy.svg" alt="copy-icon" />
+                        <img loading="lazy" src="/icons/copy.svg" alt="copy-icon" />
                     </div>
                     URL Copied!
                 </div>
